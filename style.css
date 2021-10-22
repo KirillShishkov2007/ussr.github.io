@@ -1,0 +1,65 @@
+*{
+	margin: 15px;
+	box-sizing: border-box;
+}
+body{
+	font-family:helvetica ;
+	background-color: #af3a3a;
+	background-image:url("123.jfif");
+}
+
+{
+iframe
+	margin-left: 100px;
+}
+
+{
+	margin:15px;
+	box-sizing: border-box;	
+}
+p {
+	color: #ffea1e;
+	font-size:20px;
+	font-family: "swap" , cursive;
+	
+}
+h1 {
+	color:33232;
+	font-size; 150px;
+}
+div {
+	width: 90%;
+	color: #0501ff;
+	padding: 20px;
+	box-shadow: 0 0 10px 1px;
+	margin: auto;
+	background-color: #480000;
+
+
+}
+a{
+	font-size: 27px;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 25%;
+	display: block;
+	margin: 10px;
+
+}
+
+video{
+	margin-top: 200px
+	margin-left: 500px
+}
+
+main {
+	width: 90%;
+	color: #0501ff;
+	padding: 20px;
+	box-shadow: 0 0 10px 1px;
+	margin: auto;
+	background-color: #332626;
