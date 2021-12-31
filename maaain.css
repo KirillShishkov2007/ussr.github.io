@@ -1,0 +1,113 @@
+@media (min-width: 1250px)
+:root body:not(.nav-collapsed).nav-wide {
+    --navWidth: 180px;
+}
+@media (min-width: 1250px)
+:root body:not(.nav-collapsed) {
+    --navWidth: 145px;
+}
+.dark-mode {
+    --globalBackground: rgba(0,0,0,0.2);
+    --globalBackgroundOpaque: #262421;
+    --globalSecondaryBackground: rgba(0,0,0,0.14);
+    --globalTertiaryBackground: rgba(2,1,1,0.18);
+    --globalAccentBackground: hsla(0,0%,100%,0.14);
+    --globalSecondaryAccentBackground: hsla(0,0%,100%,0.05);
+    --subtleButtonBackground: hsla(0,0%,100%,0.16);
+    --globalBorder: hsla(0,0%,100%,0.1);
+    --globalGray: hsla(0,0%,100%,0.08);
+    --globalGraySoft: hsla(0,0%,100%,0.08);
+    --globalColorThemeFull: #fff;
+    --globalColorThemeHigh: hsla(0,0%,100%,0.8);
+    --globalColorThemeMid: hsla(0,0%,100%,0.65);
+    --globalColorThemeLow: hsla(0,0%,100%,0.4);
+    --globalColorThemeLink: #52b1dc;
+    --globalColorThemeBlueToWhite: #fff;
+    --globalColorThemeBlueToMid: hsla(0,0%,100%,0.65);
+    --globalColorThemeBlueToMidHover: hsla(0,0%,100%,0.8);
+    --globalColorThemeBlueToHigh: hsla(0,0%,100%,0.8);
+    --globalColorThemeBlueToHighHover: #fff;
+    --globalColorThemeHighToMid: hsla(0,0%,100%,0.65);
+    --globalColorThemeFullToMid: hsla(0,0%,100%,0.65);
+    --globalColorNeutral100: rgba(0,0,0,0.2);
+    --globalColorNeutral200: rgba(0,0,0,0.4);
+    --globalOverlayBackground: #26211b;
+}
+body {
+    background-color: #312e2b;
+    color: #312e2b;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.43;
+    margin: 0;
+    padding: 0;
+    touch-action: manipulation;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+@media (min-width: 960px)
+:root {
+    --navWidth: 50px;
+}
+:root {
+    --globalBackground: #fff;
+    --globalBackgroundOpaque: #fff;
+    --globalSecondaryBackground: #f0f0f0;
+    --globalTertiaryBackground: #dad7d5;
+    --globalAccentBackground: #fff;
+    --globalSecondaryAccentBackground: #f8f8f8;
+    --subtleButtonBackground: #e7e6e4;
+    --globalBorder: rgba(0,0,0,0.1);
+    --globalGray: #dbd9d7;
+    --globalGraySoft: #f1f1f1;
+    --globalColorThemeFull: #312e2b;
+    --globalColorThemeHigh: #4b4847;
+    --globalColorThemeMid: #666564;
+    --globalColorThemeLow: #8b8987;
+    --globalColorThemeLink: #3a729c;
+    --globalColorThemeBlueToWhite: #0b5987;
+    --globalColorThemeBlueToMid: #3a729c;
+    --globalColorThemeBlueToMidHover: rgba(58,114,156,0.8);
+    --globalColorThemeBlueToHigh: #3a729c;
+    --globalColorThemeBlueToHighHover: rgba(58,114,156,0.8);
+    --globalColorThemeHighToMid: #4b4847;
+    --globalColorThemeFullToMid: #312e2b;
+    --globalColorNeutral100: #f1f1f1;
+    --globalColorNeutral200: #dad8d6;
+    --globalSecondaryFont: "Montserrat",sans-serif;
+    --easeOutCubic: cubic-bezier(.33,1,.68,1);
+    --globalOverlayBackground: #f1f1f1;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+body:after {
+    content: '';
+    position: fixed;
+    background: url(https://images.chesscomfiles.com/uploads/v1/theme/1740218-0.d11e3453.jpeg) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100
+vh
+;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}

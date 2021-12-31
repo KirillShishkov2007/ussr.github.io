@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.box  {
+background-color:#fff;
+
+}
+
+input{
+	width: 40px;
+	height: 45px;
+	background-color: #ff4d00;
+	border-radius: 0.7;
+}
+
+.text-input{
+	width: 215px;
+	height: 30;
+	background-color: #ffffff;
+}
+
+.button{
+	background-color: #0000ff;
+}
+
+.box{
+	background-color: #4b4d4b;
+	width: 800px;
+	margin-left:10px;
+}
+
+.tag {
+    font-family: "Courier New",Courier,mono;
+    color: #069;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.attribute, .css .rule .keyword {
+    color: #b61039;
+    font-weight: normal;
+    border: none;
+    background: none;
+    white-space: nowrap;
+}
+
+.text00{
+	color: #ffffff
+    font-weight: normal;
+    border: none;
+    background: none;
+    white-space: nowrap;
+}
+
+.bl{
+	color: blue
+}
+
+.hp{
+	font-size:20px;
+	color: red
+}
+
+.p1{
+	margin-left:20px;
+	margin-bottom:20px;
+}
+.p{
+	margin-left:20px;
+	margin-top:20px;
+}
+
+p{
+	margin-left: 5px
+}

@@ -1,24 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CCCР</title>
-	<link rel="stylesheet" href="style.css">
+<title>Calculator</title>
 </head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta http-equiv="charset" content="windws-1251">
 <body>
-	<div>
-		<img src="img.jpg004.png" style="width: 450px;height: 150px"/>
+<form name="calculator" >
+<div class="text-conteiner">
+	<p class="p">HTML и CSS прописываем в одной папке но в отдельном файле</p>
+	<p class="p1">HTML</p>
+	<div translate="no" class="box">
+		<p class="text1">
+			<P>
+				<span ><</span>html<span>></span><br>
+				<span><</span>head<span>></span><br>
+				<span><</span>title>Calculator<span>></span><span><</span><span>/title></span><br>
+				<span><</span>/head<span>></span><br>
+				<span><</span>link rel="stylesheet" type="text/css" href="main.css"<span>></span><br>
+				<span><</span>body<span>></span><br>
+				<span><</span>form name="calculator"<span>></span><br>	
+				<span><</span>div<span>></span><br>	
+				<span><</span>button class="button" onclick="return false"<span>></span><br>
+				<span><</span>input type="textfield" name="ans" value="" class="text-input"<span>></span><br>	
+				<span><</span>/div<span>></span><br>	
+				<span><</span>div<span>></span><br>	
+				<span><</span>/button<span>></span><br>	
+				<span><</span>button class="button" onclick="return false"<span>></span><br>
+				<span><</span>input type="button" value="1"onClick="document.calculator.ans.value+='1'"<span>></span><br>
+				<span><</span>input type="button" value="2"onClick="document.calculator.ans.value+='2'"<span>></span><br>
+				<span><</span>input type="button" value="3"onClick="document.calculator.ans.value+='3'"<span>></span><br>
+				<span><</span>input type="button" value="4"onClick="document.calculator.ans.value+='4'"<span>></span><br>
+				<span><</span>input type="button" value="5"onClick="document.calculator.ans.value+='5'"<span>></span><span><</span><span>br></span><br>
+				<span><</span>input type="button" value="6"onClick="document.calculator.ans.value+='6'"<span>></span><br>
+				<span><</span>input type="button" value="7"onClick="document.calculator.ans.value+='7'"<span>></span><br>
+				<span><</span>input type="button" value="8"onClick="document.calculator.ans.value+='8'"<span>></span><br>
+				<span><</span>input type="button" value="9"onClick="document.calculator.ans.value+='9'"<span>></span><br>
+				<span><</span>input type="button" value="0"onClick="document.calculator.ans.value+='0'"<span>></span><br>
+				<span><</span>/button<span>></span><br>
+				<span><</span>/div<span>></span><br>
+				<span><</span>div<span>></span><br>
+				<span><</span>button class="button" onclick="return false"<span>></span><br>
+				<span><</span>input type="button" value="-" onClick="document.calculator.ans.value+='-'"<span>></span><br>
+				<span><</span>input type="button" value="+" onClick="document.calculator.ans.value+='+'"<span>></span><br>
+				<span><</span>input type="button" value="*" onClick="document.calculator.ans.value+='*'"<span>></span><br>
+				<span><</span>input type="button" value="/" onClick="document.calculator.ans.value+='/'"<span>></span><br>
+				<span><</span>input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"<span>></span><br>
 
-</div>
-	<main>
-		<a style="border: 2px solid #3900fb;background-color: #480000;padding: 5px; width: 130px;" href="respussr.html">РЕСПУБЛИКИ СССР</a>
-		<a style="border: 2px solid #3900fb;background-color: #480000;padding: 5px; width: 130px;" href="gumnsccr.html">ГИМН СССР</a>
-		<a style="border: 2px solid #3900fb;background-color: #480000;padding: 5px; width: 130px;" href="usssr.html">ВАЛЮТЫ СССР</a>
-	</main>
+
+
+		
+		</div>
+		</div><br>
+		<div translate="no" class="box">
+			<p class="text1">
+				<span>*{</span><br>
+				<span>padding: 0;</span><br>
+				<span>margin: 0;</span><br>
+				<span>box-sizing: border-box;</span><br>
+				<span>}</span><br>
+				<span>input{</span><br>
+				<span>width: 40px;</span><br>
+				<span>height: 45px;</span><br>
+				<span>background-color: #ff4d00;</span><br>
+				<span>border-radius: 0.7;</span><br>
+				<span>}</span><br>
+				<span>.text-input{</span><br>
+				<span>width: 215px;</span><br>
+				<span>	height: 30;</span><br>
+				<span>background-color: #ffffff;</span><br>
+				<span>}</span><br>
+
+
+				
+
+			</p>
+		</div>
+
+
+		<br>
+
+	<form name="calculator" >
 	<div>
-		<h1>Союз Советских Социалистических Республик</h1>
-		<img src="image1.gif">
+	<button class="button" onclick="return false">
+	<input type="textfield" name="ans" value="" class="text-input">
+		</div>
+	<div>
+	</button>
+	<button class="button" onclick="return false">
+	<input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+	<input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+	<input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+	<input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+	<input type="button" value="5" onClick="document.calculator.ans.value+='5'"><br>
+	<input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+	<input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+	<input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+	<input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+	<input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+	</button>
+		</div>
+	<div>
+	<button class="button" onclick="return false">
+	<input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+	<input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+	<input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+	<input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+	<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"><br>
+	</button>
 	</div>
-	</body>
+</div>
+
+</form>
+</body>
 </html>
